@@ -9,10 +9,11 @@
 <body>
 	<h2>회원 가입</h2>
 	<hr>
-	<form action="">
+	<form action="memberJoinOk.jsp">
 		아이디 : <input type="text" name="memberid"><br><br>
 		비밀번호 : <input type="password" name="memberpw"><br><br>
 		이름 : <input type="text" name="membername"><br><br>
+		나이 : <input type="text" name="memberage"><br><br>
 		성별 : <input type="radio" name="gender" value="male">남자 <input type="radio" name="gender" value="female">여자<br><br>
 		전화번호 : 
 			<select name="phone1">
